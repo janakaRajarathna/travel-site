@@ -1,0 +1,117 @@
+body{
+    line-height: 1.6;
+    background-size: cover;
+    background-position: center;
+    background-color: #0b0f2a;
+    margin: 0px;
+}
+
+header {
+    background-color: #333;
+    color: #59dcf3;
+    padding: 20px;
+   
+}
+
+header h1 {
+    margin: 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #59dcf3;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
+
+footer {
+    background-color: #333;
+    color: #59dcf3;
+    padding: 10px;
+    text-align: center;
+}
+
+.contact-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+    background-color: #f4f4f4;
+}
+  
+.contact-form, .contact-info {
+    background: #fff;
+    padding: 2rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 45%;
+}
+  
+.contact-form h2, .contact-info h2 {
+    margin-top: 0;
+}
+  
+.contact-form label, .contact-info p {
+    display: block;
+    margin: 1rem 0 0.5rem;
+}
+  
+.contact-form input, .contact-form textarea, .contact-form button {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+}
+  
+.contact-form button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+}
+  
+.contact-info a {
+    color: #333;
+    text-decoration: none;
+}
+  
+.contact-info .social-media {
+    margin-top: 1rem;
+}
+  
+.contact-info .social-media a {
+    margin-right: 1rem;
+    text-decoration: none;
+}
+  
+.map iframe {
+    width: 100%;
+    height: 200px;
+    border: 0;
+}
+
+.footer-links a {
+    color: #fff;
+    margin: 0 1rem;
+    text-decoration: none;
+}
+  
+.newsletter-signup {
+    margin: 1rem 0;
+}
+  
+.newsletter-signup input, .newsletter-signup button {
+    padding: 0.5rem;
+}
+  
+.newsletter-signup button {
+    background-color: #fff;
+    
+}  

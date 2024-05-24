@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-image: url('ai/caption.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #59dcf3;
+    padding: 20px;
+   
+}
+
+header h1 {
+    margin: 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #59dcf3;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+main {
+    padding: 20px;
+}
+
+
+
+footer {
+    background-color: #333;
+    color: #59dcf3;
+    padding: 10px;
+    text-align: center;
+}
+.main{
+    display: inline-block;
+    padding: 20px 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #59dcf3;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+    width: 300px;
+    height:100px;
+    background-color: #333333;
+    font-size: 30px;
+    font-family: "GothamRoundedBold";
+}
+h1{
+   font-family: "GothamRoundedBold";
+}
+
+
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    max-width: 800px;
+}
+
+.gallery img {
+    width: calc(33.333% - 10px);
+    height: fit-content;
+    display: block;
+    border: 5px solid #1f1e1e;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    transform: scale(0.8);
+    opacity: 0;
+    transition: transform 1s ease-out, opacity 1s ease-out;
+}
+
+.gallery img.visible {
+    transform: scale(1);
+    opacity: 1;
+}
+
+.gallery img:nth-child(2n) {
+    height: 150px;
+}
+
+.gallery img:nth-child(3n) {
+    height: 200px;
+}
+
+@media (max-width: 600px) {
+    .gallery img {
+        width: calc(50% - 10px);
+    }
+}
+
+@media (max-width: 400px) {
+    .gallery img {
+        width: 100%;
+    }
+}
+.bg-section1{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
